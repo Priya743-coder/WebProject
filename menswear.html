@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menswear - Klotheeze</title>
+    <link rel="stylesheet" href="card.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">Klotheezy</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menswear.html">Men</a></li>
+          <li class="nav-item"><a class="nav-link" href="womenswear.html">Women</a></li>
+          <li class="nav-item"><a class="nav-link" href="accessories.html">Accessories</a></li>
+         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+    <div class="container py-5">
+        <h1 class="mb-4 text-center">Mens Wear</h1>
+
+
+        <!-- Filter & Sort Section -->
+        <div class="top-bar">
+            <p><a href="index.html" class="text-decoration-none text-dark">Home</a> › <strong>Mens wear</strong></p>
+            <!-- <button class="btn btn-outline-dark">Filter Products</button> -->
+            <button class="btn btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#filterSidebar">
+                Filter Products
+            </button>
+
+            <div class="d-flex align-items-center">
+                <span class="me-2">Sort by:</span>
+                <select class="form-select" style="width: 200px;">
+                    <option>All</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Product 1 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                            <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110445629_FLYS070-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">BLUE SUIT</div>
+                    <div class="price-text">Rs. 1,000.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110440650_FLYS069-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">PASTEL GREEN SUIT</div>
+                    <div class="price-text">Rs. 2,200.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110436473_FLYS068-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">PASTEL GREEN SUIT</div>
+                    <div class="price-text"> Rs. 3,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110431733_FLYS066-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">MAROON SUIT</div>
+                    <div class="price-text"> Rs. 3,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110427421_FLYS065-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">BLUE SUIT</div>
+                    <div class="price-text"> Rs. 1,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110422643_FLYS064-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">PINK THREE PIECE SUIT</div>
+                    <div class="price-text">Rs. 1,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110418592_FLYS062-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">MEN IN BLACK</div>
+                    <div class="price-text"> Rs. 1,250.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110414417_FLYS051-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">WINE THREE PIECE SUITE</div>
+                    <div class="price-text"> Rs. 5,250.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110410029_FLYS050-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">GRAY EMBROIDERED THREE PIECE SUIT</div>
+                    <div class="price-text"> Rs. 5,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 10 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110405516_FLYS048-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">BLUE THREE PIECE SUITE</div>
+                    <div class="price-text"> Rs. 4,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 11 -->
+            <div class="col-md-4"data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110401083_FLYS046-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">MENS IN BLACK</div>
+                    <div class="price-text"> Rs. 5,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 12 -->
+            <div class="col-md-4"data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110396875_FLYS045-3_1.jpg" alt="THE BOSTONLUXE">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">MAROON AND BLACK</div>
+                    <div class="price-text">Rs. 4,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 13 -->
+            <div class="col-md-4"data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110591695_FLYSC063-2_1.jpg" alt="SHERWANI">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">OFF-WHITE SHERWANI</div>
+                    <div class="price-text">Rs. 4,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 14 -->
+            <div class="col-md-4"data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110577905_FLYSC058-3_1.jpg" alt="SHERWANI">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">PEACH SHERWANI</div>
+                    <div class="price-text">Rs. 8,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 15 -->
+            <div class="col-md-4">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110572970_FLYSC055-2_1.jpg" alt="SHERWANI">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">WHITE EMBROIDERED SHERWANI</div>
+                    <div class="price-text">From Rs. 12,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+
+
+            <!-- Product 1 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110532876_FLYSC045-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">GREY INDO WITH JACKET</div>
+                    <div class="price-text">Rs. 4,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110528135_FLYSC043-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">BLACK EMBROIDERED SHERWANI</div>
+                    <div class="price-text">Rs. 5,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110518559_FLYSC041-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">EKAKSH </div>
+                    <div class="brand">GRAY BLACK EMBROIDERED SHERWANI</div>
+                    <div class="price-text">Rs. 5,800.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110509284_FLYSC036-2_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">IVORY GOLD SHERWANI</div>
+                    <div class="price-text">Rs. 4,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1709110481049_FLYSC029-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">SKY BLUE INDO WITH JACKET SHERWANI</div>
+                    <div class="price-text"> Rs. 9,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1691756700553_FMSC019-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">HIS CLOSET</div>
+                    <div class="brand">HEAVY EMBROIDERED RED SHERWANI</div>
+                    <div class="price-text">Rs. 14,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1691756696416_FMSC017-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">HIS CLOSET</div>
+                    <div class="brand">ZARI EMBROIDERED SHERWANI</div>
+                    <div class="price-text">Rs. 5,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1691755926595_FM2920-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">PUNEET AND NIDHI </div>
+                    <div class="brand">WEEDING SHERWANI</div>
+                    <div class="price-text">Rs. 29,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1691754749354_FM2908-3_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">HIS CLOSET </div>
+                    <div class="brand">PEACH EMBROIDERED</div>
+                    <div class="price-text">Rs. 8,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 10 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1681114431053_FM2664-4_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">HIS CLOSET</div>
+                    <div class="brand">GOLD AND MAROON SHERWANI</div>
+                    <div class="price-text">Rs. 4,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 11 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1654760629516_FM2116-2_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">HIS CLOSET</div>
+                    <div class="brand">BLUE FORMAL SUIT</div>
+                    <div class="price-text">Rs. 2,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 12 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1628870199400_FRES10248_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">NIYOOSH </div>
+                    <div class="brand">MULTI-COLOR INDO </div>
+                    <div class="price-text"> Rs. 3,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 13 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1628870196686_FRES09424_1.jpg" alt="kurtas & sherwani">
+                    </div>
+                    <div class="product-title">NIYOOSH</div>
+                    <div class="brand">NAVY BLUE PRINTED SHERWANI</div>
+                    <div class="price-text">Rs. 3,800.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 14 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1628870181938_FRES04811_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">EKAKSH</div>
+                    <div class="brand">TURQUOISE BLUE PLAIN</div>
+                    <div class="price-text">Rs. 3,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 15 -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://dhb8p39s5y2g5.cloudfront.net/rib/1609243108501_FRES06137_1.jpg" alt="kurtas & sherwanis">
+                    </div>
+                    <div class="product-title">THE BOSTONLUXE</div>
+                    <div class="brand">BLACKPANTS</div>
+                    <div class="price-text">Rs. 3,500.00</div>
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#buyModal">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- Buy Now Modal -->
+  <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="buyModalLabel">Buy Product</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>To purchase this product, please visit our <a href="contactus.html">Contact Page</a>.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <!-- Filter Sidebar (Bootstrap Offcanvas) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="filterSidebar" aria-labelledby="filterSidebarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="filterSidebarLabel">Filter Products</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form>
+                <h6>Category</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="filter1">
+                    <label class="form-check-label" for="filter1">Wedding</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="filter2">
+                    <label class="form-check-label" for="filter2">Reception</label>
+                </div>
+
+                <hr>
+
+                <h6>Size</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="sizeM">
+                    <label class="form-check-label" for="sizeM">Medium</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="sizeL">
+                    <label class="form-check-label" for="sizeL">Large</label>
+                </div>
+
+                <hr>
+
+                <h6>Color</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="colorWhite">
+                    <label class="form-check-label" for="colorWhite">White</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="colorBrown">
+                    <label class="form-check-label" for="colorBrown">Brown</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+   <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2025 Klotheezy. All rights reserved.</p>
+      <p>Follow us on:
+        <a href="#" class="text-white">Facebook</a>
+        <a href="#" class="text-white">Instagram</a>
+        <a href="#" class="text-white ">Twitter</a>
+      </p>
+    </div>
+
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
