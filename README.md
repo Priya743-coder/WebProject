@@ -1,2 +1,3 @@
-# WebProject
-Web Project Description
+# E-Commerce
+A brief description od what is this...
+My internship project was centered around the design and development of the frontend interface for an e-commerce website named “Klotheezy.” The website was aimed at providing users with a modern and visually appealing online platform for exploring and renting fashion apparel. The entire frontend of the website was developed using technologies such as HTML, CSS, JavaScript, Bootstrap, and the AOS (Animate On Scroll) animation library. This internship not only improved my web development skills but also gave me valuable exposure to user interface design principles and responsive web development practices.
